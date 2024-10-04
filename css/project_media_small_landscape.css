@@ -7,9 +7,16 @@
   .project__description {
     margin-bottom: 0;
   }
+  .image_content {
+  display: flex; /* Menggunakan Flexbox untuk menyusun gambar secara horizontal */
+  justify-content: space-between; /* Mengatur jarak antara gambar agar berjajar dengan ruang di antara */
+  align-items: center; /* Menyusun gambar secara vertikal di tengah kontainer */
+}
   .project__header__img {
-    margin-top: -2em;
-  }
+  max-width: 50px; /* Menyertakan lebar maksimum untuk gambar agar tidak melebihi lebar kontainer */
+  height: auto; /* Menjaga aspek rasio gambar */
+  margin-right: 10px; /* Memberikan ruang di antara gambar */
+}
   .project__flex {
     margin-left: 3em;
     margin-right: 3em;
